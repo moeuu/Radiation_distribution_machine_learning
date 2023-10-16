@@ -83,7 +83,7 @@ class BaseTransform():
     std : (R, G, B)
     """
 
-    def __init__(self,resize=224):
+    def __init__(self,resize=256):
         self.mean = get_mean()
         self.std = get_std()
         self.base_transform = Compose([
