@@ -16,7 +16,7 @@ logger = getLogger(__name__)
 class cnt2img(object):
     def __init__(self):
         self.rad_cnt_path = "../../data/rad_cnt/result"
-        for i in range(100):
+        for i in range(280):
             self.i = i
             self.create_rad_cnt_img()
             self.cut_img()
